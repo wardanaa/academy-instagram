@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": ">= 0.52.0"
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug",
+        "simulator": true
+      }
+    },
+
+    "preview": {
+      "distribution": "internal"
+    },
+
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./service_account.json",
+        "track": "production",
+        "changesNotSentForReview": "true"
+      },
+      "ios": {
+        "appleId": "savinvadim1312@gmail.com",
+        "ascAppId": "1622838577",
+        "appleTeamId": "J5KS3PTAAH"
+      }
+    }
+  }
+}

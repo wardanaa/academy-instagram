@@ -1,0 +1,14 @@
+{
+  "resourceName": "storage",
+  "policyUUID": "76ed64ee",
+  "bucketName": "notjustphotos-media",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
